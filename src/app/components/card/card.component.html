@@ -1,6 +1,7 @@
 <div class="card-container">
   @for (card of cards; track $index) {
     <div class="card" [style.backgroundColor]="card.backgroundColor" routerLink="/card-detail/{{card.id}}" [style.viewTransitionName]="'card-' + card.id">
+      <span>{{card.backgroundColor}}</span>
     </div>
   }
 
