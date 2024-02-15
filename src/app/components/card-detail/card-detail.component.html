@@ -1,0 +1,10 @@
+<div class="card-detail" [style.viewTransitionName]="'card-' + card.id">
+  <div class="card-detail__image" [style.backgroundColor]="card.backgroundColor"  >
+    <span class="card-detail__bg--text">{{card.backgroundColor}}</span>
+  </div>
+  <div class="card-detail__info">
+    <h2>{{card.title}}</h2>
+    <p>{{card.description}}</p>
+    <button class="btn" routerLink="/">Back</button>
+  </div>
+</div>

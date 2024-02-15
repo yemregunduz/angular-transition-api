@@ -1,0 +1,36 @@
+.card-detail {
+  padding: 1.5rem;
+  display:inline-block;
+
+  &__image {
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__bg--text{
+    position: absolute;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+  }
+}
